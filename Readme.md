@@ -66,29 +66,29 @@ QUERY source destination
 This computes the shortest distance from source to destination considering current traffic.
 
 Example Input
-6 5
-0 1 5
-1 2 3
-0 3 10
-3 4 1
-4 2 2
-7
-UPDATE 1 4
-QUERY 0 2
-UPDATE 3 6
-QUERY 0 2
-UPDATE 1 0
-QUERY 3 2
-QUERY 0 4
+6 5 |
+0 1 5 |
+1 2 3 |
+0 3 10 |
+3 4 1 |
+4 2 2 |
+7 |
+UPDATE 1 4 |
+QUERY 0 2 |
+UPDATE 3 6 |
+QUERY 0 2 |
+UPDATE 1 0 |
+QUERY 3 2 |
+QUERY 0 4 |
 
 Output
 
 For each QUERY operation, the program prints one line containing the shortest distance.
 
-12
-12
-9
-17
+12 |
+12 |
+9 |
+17 |
 
 
 base weight + traffic delay
